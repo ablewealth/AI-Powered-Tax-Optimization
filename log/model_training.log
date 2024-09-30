@@ -1,0 +1,37 @@
+2024-09-27 08:46:46,721 - ERROR - Error during model training: DataPreprocessing.load_data() missing 1 required positional argument: 'self'
+2024-09-27 08:47:22,772 - ERROR - Error loading data: 'TaxOptimizerModel' object has no attribute 'historical_data_path'
+2024-09-27 08:47:22,773 - ERROR - Error during model training: 'TaxOptimizerModel' object has no attribute 'historical_data_path'
+2024-09-27 08:48:33,792 - ERROR - Error during model training: DataPreprocessing.load_data() missing 1 required positional argument: 'self'
+2024-09-27 08:50:53,180 - INFO - Data loaded successfully.
+2024-09-27 08:50:53,233 - INFO - Data preprocessed successfully.
+2024-09-27 08:50:54,743 - INFO - Model training completed successfully.
+2024-09-27 08:50:54,765 - INFO - Model Mean Squared Error: 86660.63
+2024-09-27 08:50:54,765 - ERROR - Error saving model: [Errno 2] No such file or directory: 'model/tax_optimizer_model.pkl'
+2024-09-27 08:50:54,765 - ERROR - Error during model training: [Errno 2] No such file or directory: 'model/tax_optimizer_model.pkl'
+2024-09-27 08:51:33,878 - INFO - Data loaded successfully.
+2024-09-27 08:51:33,885 - INFO - Data preprocessed successfully.
+2024-09-27 08:51:35,500 - INFO - Model training completed successfully.
+2024-09-27 08:51:35,521 - INFO - Model Mean Squared Error: 84623.32
+2024-09-27 08:51:35,522 - ERROR - Error saving model: [Errno 2] No such file or directory: 'model/tax_optimizer_model.pkl'
+2024-09-27 08:51:35,522 - ERROR - Error during model training: [Errno 2] No such file or directory: 'model/tax_optimizer_model.pkl'
+2024-09-27 08:52:24,958 - INFO - Data loaded successfully.
+2024-09-27 08:52:24,963 - INFO - Data preprocessed successfully.
+2024-09-27 08:52:26,523 - INFO - Model training completed successfully.
+2024-09-27 08:52:26,543 - INFO - Model Mean Squared Error: 84163.24
+2024-09-27 08:52:26,589 - INFO - Model saved successfully as D:/AI-Powered Tax Optimization/src/tax_optimizer_model.pkl.
+2024-09-27 08:54:34,123 - INFO - Model loaded successfully.
+2024-09-27 08:54:34,192 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-09-27 08:54:34,193 - INFO - [33mPress CTRL+C to quit[0m
+2024-09-27 08:54:34,196 - INFO -  * Restarting with stat
+2024-09-27 08:54:35,673 - INFO - Model loaded successfully.
+2024-09-27 08:54:35,684 - WARNING -  * Debugger is active!
+2024-09-27 08:54:35,690 - INFO -  * Debugger PIN: 457-547-422
+2024-09-27 08:54:49,788 - INFO - 127.0.0.1 - - [27/Sep/2024 08:54:49] "[33mGET / HTTP/1.1[0m" 404 -
+2024-09-27 08:54:54,600 - INFO - 127.0.0.1 - - [27/Sep/2024 08:54:54] "[31m[1mGET /optimize_tax HTTP/1.1[0m" 405 -
+2024-09-27 08:55:34,953 - ERROR - Error during tax optimization: 'features'
+2024-09-27 08:55:34,959 - INFO - 127.0.0.1 - - [27/Sep/2024 08:55:34] "[35m[1mPOST /optimize_tax HTTP/1.1[0m" 500 -
+2024-09-27 08:56:03,463 - ERROR - Error during tax optimization: X has 4 features, but RandomForestRegressor is expecting 9 features as input.
+2024-09-27 08:56:03,464 - INFO - 127.0.0.1 - - [27/Sep/2024 08:56:03] "[35m[1mPOST /optimize_tax HTTP/1.1[0m" 500 -
+2024-09-27 08:57:46,129 - INFO - Prediction made: 11298.121500000003
+2024-09-27 08:57:46,130 - INFO - 127.0.0.1 - - [27/Sep/2024 08:57:46] "POST /optimize_tax HTTP/1.1" 200 -

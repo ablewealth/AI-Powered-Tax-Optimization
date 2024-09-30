@@ -1,0 +1,18 @@
+2024-09-27 08:37:48,729 - ERROR - Error loading data: [Errno 22] Invalid argument: 'D:\\AI-Powered Tax Optimization\\data\tax_regulations.csv'
+2024-09-27 08:38:39,637 - INFO - Data loaded successfully.
+2024-09-27 08:38:39,680 - INFO - Data preprocessed successfully.
+2024-09-27 08:38:39,682 - ERROR - Error training model: could not convert string to float: 'TX'
+2024-09-27 08:40:02,684 - INFO - Data loaded successfully.
+2024-09-27 08:40:02,686 - ERROR - Error during preprocessing: name 'ColumnTransformer' is not defined
+2024-09-27 08:40:23,991 - INFO - Data loaded successfully.
+2024-09-27 08:40:24,071 - INFO - Data preprocessed successfully.
+2024-09-27 08:40:24,091 - ERROR - Error training model: Unknown label type: continuous. Maybe you are trying to fit a classifier, which expects discrete classes on a regression target with continuous values.
+2024-09-27 08:41:38,828 - INFO - Data loaded successfully.
+2024-09-27 08:41:38,836 - INFO - Data preprocessed successfully.
+2024-09-27 08:41:40,551 - INFO - Model trained successfully.
+2024-09-27 08:41:40,574 - ERROR - Error evaluating model: continuous is not supported
+2024-09-27 08:42:43,037 - INFO - Data loaded successfully.
+2024-09-27 08:42:43,043 - INFO - Data preprocessed successfully.
+2024-09-27 08:42:44,742 - INFO - Model trained successfully.
+2024-09-27 08:42:44,765 - INFO - Model evaluation completed. MAE: 223.61, MSE: 84732.88, R²: 1.00
+2024-09-27 08:42:44,850 - INFO - Model saved successfully as D:/AI-Powered Tax Optimization/src/model.pkl.
