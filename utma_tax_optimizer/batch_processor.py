@@ -1,7 +1,7 @@
 # batch_processor.py -- Batch process UTMA/UGMA accounts for tax optimization
 
 import csv
-from utma_optimizer import optimize_utma  # adjust import as needed
+from .utma_optimizer import optimize_utma
 
 def process_accounts_batch(file_path, year=2025):
     """Process a batch of UTMA/UGMA accounts from a CSV file."""
