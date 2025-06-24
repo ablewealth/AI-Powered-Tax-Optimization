@@ -1,0 +1,4 @@
+account_id,ytd_income,positions
+ACCT-1001,1200.50,"[{""symbol"": ""AAPL"", ""unrealized_gain"": 500, ""tax_efficiency"": 0.8}, {""symbol"": ""MSFT"", ""unrealized_gain"": 300, ""tax_efficiency"": 0.7}]"
+ACCT-1002,2800.00,"[{""symbol"": ""GOOGL"", ""unrealized_gain"": 1500, ""tax_efficiency"": 0.9}, {""symbol"": ""TSLA"", ""unrealized_gain"": -200, ""tax_efficiency"": 0.6}]"
+ACCT-1003,900.00,"[{""symbol"": ""AMZN"", ""unrealized_gain"": 700, ""tax_efficiency"": 0.85}, {""symbol"": ""NFLX"", ""unrealized_gain"": 400, ""tax_efficiency"": 0.75}]"

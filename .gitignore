@@ -2,3 +2,4 @@ venv/
 logs/
 src/tax_optimizer_model.pkl
 src/model.pkl
+.DS_Store
